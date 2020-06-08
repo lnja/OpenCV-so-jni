@@ -4,6 +4,8 @@
 
 #ifndef _Included_com_opencv_test02_OpencvUtil
 #define _Included_com_opencv_test02_OpencvUtil
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif

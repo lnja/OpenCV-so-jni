@@ -201,7 +201,7 @@ namespace cv {
         descriptor for keypoint j-th keypoint.
         */
         CV_WRAP virtual void compute(InputArrayOfArrays images,
-                                     CV_OUT CV_IN_OUTstd::vector<std::vector<KeyPoint> > &keypoints,
+                                     CV_OUT CV_IN_OUT std::vector<std::vector<KeyPoint> > &keypoints,
                                      OutputArrayOfArrays descriptors);
 
         /** Detects keypoints and computes the descriptors */
